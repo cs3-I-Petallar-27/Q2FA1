@@ -1,0 +1,72 @@
+<DOCTYPE html>
+    <head>
+        <title> Quarter 2 comsci FA </title>
+        <meta charset="UTF-8">  
+        <meta name="keywords" content="HTML, CSS, JavaScript">
+        <meta name="author" content="Ishe Braelyn E. Petallar">
+        <meta name="revised" content="11-17-2023">
+    </head>
+    
+    <style>
+        a.link1{
+            text-decoration: none;
+            background-color:blue;
+            color: white;
+        }
+        a.link1:link {
+            color:white;
+            background-color: blue;
+        }
+        a.link1:visited {color:green;}
+        a.link1:hover {color:yellow;}
+        a.link1:active {color: blue;}
+        div#div1 {
+            width: 80px;
+            height: 80px;
+            margin-top: 10px;
+            margin-left: 0px;
+            padding: 20px;
+            border: 1px solid black;
+        }
+        div#div1:target{
+			background-color: rgb(47, 143, 231);
+            color: green;
+        }
+        a.link2{
+            text-decoration: none;
+            background-color:purple;
+            color: white;
+		}
+		a.link2:link {
+            color:white;
+            background-color: red;
+        }
+        a.link2:visited {color:black;}
+        a.link2:hover {color:red;}
+        a.link2:active {color: white;}
+        div#div2 {
+            width: 80px;
+            height: 80px;
+            margin-top: 10px;
+            margin-left: 0px;
+            padding: 20px;
+            border: 1px solid black;
+        }
+        div#div2:target{
+            border: 10px dotted;
+            border-color: green;
+            background-color: rgb(125, 66, 162);
+            color: white;
+        }
+    </style>
+	
+	<body>
+        <a href="#div1" class="link1">First Link</a>
+        <a href="#div2" class="link2">Second Link</a>
+        <br>
+        <div id="div1">Div 1 here</div>
+        <br>    
+        <div id="div2">Div 2 here</div>
+        <br>
+    </body>
+<html>
